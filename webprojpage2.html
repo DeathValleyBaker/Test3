@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Baking Co</title>
+    <meta charset="utf-8">
+    <!-- link to the external CSS file for font awesome icon library -->
+    <!--fix font types/add your own images/-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Trirong');
+      @import url('https://fonts.googleapis.com/css?family=Cinzel');
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        color: #878787;
+        margin: 0;
+        font-family: sans-serif;
+        text-align: center;
+        position: absolute;
+        width: 100vw;
+      }
+
+      .cardimg {
+        max-width: 17%;
+        margin-bottom: 20px;
+        float: left;
+        margin-right: 50px;
+        border: 10px solid #486bad;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      .nav-header {
+        background: #3a1f10;
+        display: flex;
+        min-height: 75px;
+      }
+
+      .nav-div {
+        margin: auto;
+      }
+
+      .logo-img {
+        max-width: 5%;
+        max-height: 5%;
+        float: left;
+      }
+
+      .nav-bar {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        margin-right: 160px;
+      }
+
+      .nav-bar-link:hover {
+        color: #747474;
+      }
+
+      .nav-bar-link {
+        color: #ffffff;
+        font-size: 24px;
+        padding: 20px;
+        font-family: "Trirong", sans-serif;
+      }
+
+      .main-header {
+        background: url("imgs/testbkbg.png") no-repeat center;
+        background-size: cover;
+      }
+
+      .main-header-title {
+        font-size: 100px;
+        color: #ffffff;
+        text-transform: uppercase;
+        font-weight: normal;
+        padding-left: 5px;
+        padding-bottom: 30px;
+        text-shadow: 2px 2px 5px rgb(54, 54, 54);
+        margin-top: 0px;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+      }
+
+      .intro {
+        width: 60%;
+        margin: auto;
+        margin-bottom: 20px;
+        font-size: 20px;
+        font-family: "Trirong", sans-serif;
+        color: #486bad;
+      }
+
+      .box {
+        width: 80%;
+        margin: auto;
+      }
+
+      .card {
+        text-align: left;
+        margin: auto;
+        margin-top: 100px;
+        color: #486bad;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 40px;
+        justify-content: center;
+        align-items: center;
+      }
+
+      hr.dashed {
+        border-top: 5px dashed #bbb;
+      }
+
+      .footer {
+        height: 40px;
+        background: #6f4027;
+        padding: 5px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #ffffff;
+        font-size: 16px;
+        margin-top: 30px;
+      }
+
+      @media only screen and (max-width: 800px) {
+        .nav-bar {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+        }
+
+        .nav-header {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav-header">
+      <img class="logo-img" src="imgs/testskull.png" alt="death valley">
+      <div class="nav-div">
+        <ul class="nav-bar">
+          <li>
+            <a class="nav-bar-link" href="index.html">Home</a>
+          </li>
+          <li>
+            <a class="nav-bar-link" href="webprojpage1.html">Ingredients</a>
+          </li>
+          <li>
+            <a class="nav-bar-link" href="webprojpage2.html">Substitutes</a>
+          </li>
+          <li>
+            <a class="nav-bar-link" href="webprojpage4.html">Tidbits</a>
+          </li>
+          <li>
+            <a class="nav-bar-link" href="webprojpage3.html">Mistakes</a>
+          </li>
+          <li>
+            <a class="nav-bar-link" href="webprojpage5.html">Recipe</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="main-header">
+      <h1 class="main-header-title">Death Valley Bakery</h1>
+    </div>
+    <div class="intro">
+      <h1>Common substitutes that are used.</h1>
+      <p> Sometimes you can't use certain ingredients, so you must change them. </p>
+    </div>
+    <div class="box">
+      <div class="card">
+        <img class="cardimg" src="imgs/margarinebunch.jpg" alt="shortening">
+        <h3>Butter Substitutes</h3>
+        <p> Instead of butter, you may use margarine or shortening. Shortening has much bigger fat-to-water content, and it lacks the strong flavor that butter brings. Margarine has more water-to-fat. Margarine will make your dough very soupy and cookies will spread a lot. </p>
+      </div>
+      <hr class="solid">
+      <!-- End of class .card -->
+      <div class="card">
+        <img class="cardimg" src="imgs/maplesyrup.jpg" alt="stevia">
+        <h3>Sugar Substitutes</h3>
+        <p> Stevia, honey, and maple syrup. Stevia is not designed to completely replace the sugar needed. So it's best to use half in the recipe, and add something else. Honey is an excellent binding ingredient, and maple syrup can add depth to cookies. </p>
+      </div>
+      <hr class="solid">
+      <!-- End of class .card -->
+      <div class="card">
+        <img class="cardimg" src="imgs/Applesauce.jpg" alt="oils">
+        <h3>Egg Substitutes</h3>
+        <p> You can use apple sauce, yogurt, or condensed milk. Use thick yogurt so the dough isn't runny. Apple sauce gives your cookies structure and adds texture. Condensed milk is a good binder and can give rich flavor. </p>
+      </div>
+      <hr class="solid">
+      <div class="card">
+        <img class="cardimg" src="imgs/breadflour.jpeg" alt="flours">
+        <h3>Flour Substitutes</h3>
+        <p> Substitutes for all-purpose flour would be cake flour and bread flour. The difference would be the protein content. Bread flour will make cookies more chewier, while cake flour will make it more softer and cakey. </p>
+      </div>
+      <hr class="solid">
+      <!-- End of class .card -->
+      <div class="card">
+        <img class="cardimg" src="imgs/bakingpowder.jpg" alt="stuff">
+        <h3>Leavener Substitutes</h3>
+        <p> Baking powder is the standard replacement for baking soda. Baking powder requires an extra ingredient to activate; which is usually cream of tartar. Baking powder makes cookies more dense. If using baking powder, it is important to cream your batter. </p>
+      </div>
+      <hr class="solid">
+      <!-- End of class .card -->
+    </div>
+    <!-- End of class .box -->
+    <div class="footer">
+      <p> Home of the no-skilled enthusiast. </p>
+    </div>
+  </body>
+</html>

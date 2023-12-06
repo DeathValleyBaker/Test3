@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Baking Co</title>
+    <meta charset="utf-8">
+    <!-- link to the external CSS file for font awesome icon library -->
+    <!--fix font types/add your own images/-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Trirong');
+      @import url('https://fonts.googleapis.com/css?family=Cinzel');
+      @import url('https://fonts.googleapis.com/css?family=Forum');
+
+      body {
+        color: #878787;
+        margin: 0;
+        font-family: sans-serif;
+        text-align: center;
+        position: absolute;
+        width: 100vw;
+      }
+
+      .cardimg {
+        max-width: 100%;
+        border: 10px solid #472079;
+        display: flex;
+        margin: auto;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      .nav-header {
+        background: #3a1f10;
+        display: flex;
+        min-height: 75px;
+      }
+
+      .nav-div {
+        margin: auto;
+      }
+
+      .logo-img {
+        max-width: 5%;
+        max-height: 5%;
+        float: left;
+      }
+
+      .nav-bar {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        margin-right: 160px;
+      }
+
+      .nav-bar-link:hover {
+        color: #747474;
+      }
+
+      .nav-bar-link {
+        color: #ffffff;
+        font-size: 24px;
+        padding: 20px;
+        font-family: "Trirong", sans-serif;
+      }
+
+      .main-header {
+        background: url("imgs/testbkbg.png") no-repeat center;
+        background-size: cover;
+      }
+
+      .main-header-title {
+        font-size: 100px;
+        color: #ffffff;
+        text-transform: uppercase;
+        font-weight: normal;
+        padding-left: 5px;
+        padding-bottom: 30px;
+        text-shadow: 2px 2px 5px rgb(54, 54, 54);
+        margin-top: 0px;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+      }
+
+      .intro {
+        width: 60%;
+        margin: auto;
+        margin-bottom: 20px;
+        font-size: 20px;
+        font-family: "Trirong", sans-serif;
+        color: #472079;
+      }
+
+      .card {
+        background-color: rgb(228, 228, 228);
+        margin: auto;
+        padding: 100px;
+        border-radius: 10px;
+        max-width: 400px;
+        box-shadow: 0 16px 32px -16px #8a8a8a;
+        color: #472079;
+        font-family: "Trirong", sans-serif;
+      }
+
+      .ully {
+        text-align: left;
+        font-family: "Trirong", sans-serif;
+        width: 80%;
+        margin: auto;
+        margin-top: auto;
+        color: #472079;
+        font-size: 22px;
+      }
+
+      hr.dashed {
+        border-top: 5px dashed #bbb;
+      }
+
+      .footer {
+        height: 40px;
+        background: #6f4027;
+        padding: 5px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #ffffff;
+        font-size: 16px;
+        margin-top: 30px;
+      }
+
+      .steps {
+        text-align: left;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 25px;
+        color: #23103d;
+      }
+
+      @media only screen and (max-width: 800px) {
+        .nav-bar {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+        }
+
+        .nav-header {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav-header">
+      <img class="logo-img" src="imgs/testskull.png" alt="death valley">
+      <div class="nav-div">
+        <ul class="nav-bar">
+          <li>
+            <a class="nav-bar-link" href="index.html">Home</a>
+          </li>
+          <li>
+            <a class="nav-bar-link" href="webprojpage1.html">Ingredients</a>
+          </li>
+          <li>
+            <a class="nav-bar-link" href="webprojpage2.html">Substitutes</a>
+          </li>
+          <li>
+            <a class="nav-bar-link" href="webprojpage4.html">Tidbits</a>
+          </li>
+          <li>
+            <a class="nav-bar-link" href="webprojpage3.html">Mistakes</a>
+          </li>
+          <li>
+            <a class="nav-bar-link" href="webprojpage5.html">Recipe</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="main-header">
+      <h1 class="main-header-title">Death Valley Bakery</h1>
+    </div>
+    <div class="intro">
+      <h1>
+        <i class="fa fa-trophy fa-1x"></i> The Cookie Recipe.
+      </h1>
+      <p> I like to say this recipe is the magnum opus of chocolate chunk. </p>
+    </div>
+    <div class="card">
+      <img class="cardimg" src="imgs/cookierecipe.png" alt="Recipe Card">
+      <h1>Recipe by Alvin Zhou</h1>
+      <a href="https://www.youtube.com/@AlvinKZhou/">This is his YouTube channel!</a>
+      <h3>Prep Time: 45 minutes</h3>
+      <h3>Cook Time: 20 minutes</h3>
+      <h3>Chill Time: 48 hours</h3>
+      <ul class="ully">
+        <li>2 sticks unsalted butter</li>
+        <li>1/2 cup white sugar </li>
+        <li>1 ½ cups dark brown sugar</li>
+        <li>2 tsp espresso powder</li>
+        <li>2 tsp kosher salt</li>
+        <li>½ tsp baking soda</li>
+        <li>2 eggs</li>
+        <li>2 tsp vanilla extract</li>
+        <li>2 ½ cups all purpose flour</li>
+        <li>6 oz chocolate bar, 70% cacao minimum</li>
+      </ul>
+    </div>
+    <div class="steps">
+      <h1> Steps: </h1>
+      <ol>
+        <li>Set stove on medium heat and put two sticks of unsalted butter in the skillet. Use a spatula to stir the butter. Once the butter takes on a brown hue, take it off the heat and pour the butter in a heatproof beaker. Wait for it to cool to room temperature.</li>
+        <li>Get a bowl, add in the dark brown sugar, white sugar, espresso powder, salt, and baking soda. Get a whisk and mix ingredients together. It should look like brown sand.</li>
+        <li>Pour the cooled butter into the bowl of sugar and whisk until just combined.</li>
+        <li>Crack open and add in the two whole eggs and vanilla extract. Whisk together until the mixture becomes this ribbon-y consistency. It should also become a shade lighter than before. </li>
+        <li>Add in the flour and use a spatula to gently fold the flour into the mixture until just combined.</li>
+        <li>Grab your chocolate bar and use a knife to break it into smaller shards. Put the chocolate into the dough and fold it in.</li>
+        <li>Place finished cookie dough into refrigerator and chill for 48 hours.</li>
+        <li>Preheat oven to 300 degrees Fahrenheit. Get a light metal pan and put parchment paper on top.</li>
+        <li>Get a scoop and scoop up the dough onto the pan. Place the dough into the oven for 20 minutes.</li>
+        <li>After 20 minutes, safely take the cookies out of the oven and turn the oven off. Drop the cookies onto the counter and wait 2 minutes to cool. </li>
+      </ol>
+      <h1> ENJOY! </h1>
+    </div>
+    <div class="footer">
+      <p> Home of the no-skilled enthusiast. </p>
+    </div>
+  </body>
+</html>

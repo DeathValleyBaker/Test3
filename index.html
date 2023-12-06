@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Baking Co</title>
+    <meta charset="utf-8">
+    <!-- link to the external CSS file for font awesome icon library -->
+    <!--fix font types/add your own images/-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Trirong');
+      @import url('https://fonts.googleapis.com/css?family=Cinzel');
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        color: #878787;
+        margin: 0;
+        font-family: sans-serif;
+        text-align: center;
+        position: absolute;
+        width: 100vw;
+      }
+
+      .cardimg {
+        max-width: 50%;
+        margin-bottom: 20px;
+        float: left;
+        margin-right: 50px;
+        border: 10px solid #6f4027;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      .nav-header {
+        background: #3a1f10;
+        display: flex;
+        min-height: 75px;
+      }
+
+      .nav-div {
+        margin: auto;
+      }
+
+      .logo-img {
+        max-width: 5%;
+        max-height: 5%;
+        float: left;
+      }
+
+      .nav-bar {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        margin-right: 160px;
+      }
+
+      .nav-bar-link:hover {
+        color: #747474;
+      }
+
+      .nav-bar-link {
+        color: #ffffff;
+        font-size: 24px;
+        padding: 20px;
+        font-family: "Trirong", sans-serif;
+      }
+
+      .main-header {
+        background: url("imgs/testbkbg.png") no-repeat center;
+        background-size: cover;
+      }
+
+      .main-header-title {
+        font-size: 100px;
+        color: #ffffff;
+        text-transform: uppercase;
+        font-weight: normal;
+        padding-left: 5px;
+        padding-bottom: 30px;
+        text-shadow: 2px 2px 5px rgb(54, 54, 54);
+        margin-top: 0px;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+      }
+
+      .intro {
+        width: 60%;
+        margin: auto;
+        margin-bottom: 20px;
+        font-size: 20px;
+        font-family: "Trirong", sans-serif;
+      }
+
+      .box {
+        width: 80%;
+        margin: auto;
+      }
+
+      .card {
+        text-align: left;
+        padding: 120px;
+        max-width: 1800px;
+        background-color: rgb(228, 228, 228);
+        box-shadow: 50px 50px 80px rgba(121, 118, 118, 0.5);
+        margin: auto;
+        margin-top: 100px;
+        color: #6f4027;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 40px;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .footer {
+        height: 40px;
+        background: #6f4027;
+        padding: 5px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #ffffff;
+        font-size: 16px;
+        margin-top: 30px;
+      }
+
+      @media only screen and (max-width: 900px) {
+        .nav-bar {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+        }
+
+        .nav-header {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav-header">
+      <img class="logo-img" src="imgs/testskull.png" alt="death valley">
+      <div class="nav-div">
+        <ul class="nav-bar">
+          <li>
+            <a class="nav-bar-link" href="index.html">Home</a>
+          </li>
+          <li>
+            <a class="nav-bar-link" href="webprojpage1.html">Ingredients</a>
+          </li>
+          <li>
+            <a class="nav-bar-link" href="webprojpage2.html">Substitutes</a>
+          </li>
+          <li>
+            <a class="nav-bar-link" href="webprojpage4.html">Tidbits</a>
+          </li>
+          <li>
+            <a class="nav-bar-link" href="webprojpage3.html">Mistakes</a>
+          </li>
+          <li>
+            <a class="nav-bar-link" href="webprojpage5.html">Recipe</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="main-header">
+      <h1 class="main-header-title">Death Valley Bakery</h1>
+    </div>
+    <div class="intro">
+      <h1>A basic cookie baking website created by an amateur baker!</h1>
+      <p> A place to talk about the nuance in beginner's baking. Filled with little tidbits and basic ingredient knowledge. Stuff that anyone starting the hobby should know about, but mostly focused on cookies. </p>
+    </div>
+    <div class="box">
+      <div class="card">
+        <img class="cardimg" src="imgs/Assortmentofgoodies.jpg" alt="1">
+        <h3>
+          <i class="fa fa-exclamation fa-1x"></i> The World of Baking
+        </h3>
+        <p> Baking can be an expensive hobby depending on what brand of ingredients you use. It could be compared to cooking, but baking is more of a science than an art. With enough practice, it can become an art, though. </p>
+        <a href="https://www.mybakingaddiction.com/">Here's an easy-to-navigate baking website to get started!</a>
+      </div>
+      <!-- End of class .card -->
+      <div class="card">
+        <img class="cardimg" src="imgs/2ndbatch.jpg" alt="2">
+        <h3>
+          <i class="fa fa-star fa-1x"></i> Cookies Galore
+        </h3>
+        <p> In this website's bias opinion; cookies are the best thing to bake. It's the ultimate equalizer to all baked goods. It can range from the ever-loved chocolate chip, to the vanilla sugar cookie. There's a type for everybody. </p>
+        <a href="https://www.tasteofhome.com/collection/types-of-cookies/">A list full of types of cookies and recipes attached!</a>
+      </div>
+      <!-- End of class .card -->
+      <div class="card">
+        <img class="cardimg" src="imgs/levainpic.JPG" alt="3">
+        <h3>
+          <i class="fa fa-cutlery fa-1x"></i> Bakeries to Check Out!
+        </h3>
+        <p> In New England, there are numerous bakeries to check out when traveling to other states. New York, due to it's "big-city" status, will be your best bet. They have Magnolia Bakery, and Dominique Ansel Bakery. Thankfully, one of the best cookie shops, Levain Bakery, has a store in Boston! </p>
+        <a href="https://levainbakery.com/">Levain has a website where you can ship their cookies to your door!</a>
+      </div>
+      <!-- End of class .card -->
+    </div>
+    <!-- End of class .box -->
+    <div class="footer">
+      <p> Home of the no-skilled enthusiast. </p>
+    </div>
+  </body>
+</html>
